@@ -1,0 +1,20 @@
+<div class="page-nav">
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}">
+    <div class="prev">
+      <span class="overline">Lecția anterioară</span>
+      <h5>{{page.previous.title}}</h5>
+
+    </div>
+  </a>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{page.next.url}}">
+    <div class="next">
+      <span class="overline">Lecția următoare </span>
+      <h5>{{page.next.title}}</h5>
+
+    </div>
+  </a>
+  {% endif %}
+</div>

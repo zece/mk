@@ -1,0 +1,14 @@
+{% include newsletter.html %}
+<div class="footer">
+    <div class="copyright">Copyright &copy; 2019 {{site.title}} </div>
+    <div class="meniu">
+            {% include meniu.html %}
+    </div>
+    <div class="social">
+            {% for item in site.data.social %}        
+            <a href="{{ item.link }}" target="_blank">
+                <img src="{{ item.src }}" alt="{{ item.alt }}">
+            </a>
+            {% endfor %}
+    </div>
+</div>

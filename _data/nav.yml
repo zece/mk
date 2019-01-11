@@ -1,0 +1,10 @@
+- name: Acasa
+  link: /
+- name: Despre
+  link: /despre.html
+- name: Resurse
+  link: /resurse.html
+- name: Blog
+  link: /blog
+- name: Contact
+  link: /contact.html

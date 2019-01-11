@@ -1,0 +1,12 @@
+- name: Twitter
+  link: http://twitter.com
+  src:  assets/img/twitter.svg
+  alt:  Pagina de Twitter
+- name: Facebook
+  link: http://twitter.com
+  src:  assets/img/facebook.svg
+  alt:  Pagina de Facebook
+- name: LinkedIn
+  link: http://twitter.com
+  src:  assets/img/linkedin.svg
+  alt:  Pagina de LinkedIn

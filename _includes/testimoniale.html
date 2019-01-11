@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="titlu">
+        <h2>Ce spune lumea despre curs</h2>
+    </div>
+    <div class="citate">
+        {% for citat in site.data.citate %}
+        <div class="citat">
+            <span>“</span>
+            {{ citat.text }}
+            <div class="autor"><strong>{{citat.nume}}</strong> <br>{{citat.job}}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
