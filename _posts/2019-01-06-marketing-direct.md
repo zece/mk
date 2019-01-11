@@ -3,9 +3,7 @@ layout: post
 title:  "Marketing direct"
 roman: V
 showclock: true
-description: "Dezvoltă-ți cariera în ritmul propriu, cu ajutorul sesiunilor flexibile și
-                    personalizate de instruire, concepute pentru a-ți spori încrederea în forțele
-                    proprii și pentru a progresa."
+description: "În acest capitol vom prezenta marketingul direct și intrumentele pe care acesta le oferă pentru o companie (email, telemarketing, etc)."
 ---
 Marketingul Direct este o formă de publicitate care se adresează unui set de ținte bine definit cu scopul de a genera un rezultat măsurabil, folosind instrumente media adresabile, ca poșta sau e-mailul. Marketingul direct folosește intensiv baze de date.
 
@@ -13,6 +11,10 @@ Instrumente comune pentru marketingul direct sunt mailing-ul (denumit și direct
 
 Canalele marketingului direct
 Orice canal media care poate fi folosit pentru a transmite un mesaj direct unui consumator este folosit în marketingul direct. Aceste canale de media sunt "adresabile", diferențiindu-se astfel de media "de masă", cum ar fi televiziunea, radioul sau panourile publicitare.
+
+<a href="https://static1.squarespace.com/static/59bffcb151a5849dcf7ae270/t/59c46c5dc534a534d5e801d5/1506045026219/Email-Marketing.png" rel="SEO Tools" target="_blank">![seo2](https://static1.squarespace.com/static/59bffcb151a5849dcf7ae270/t/59c46c5dc534a534d5e801d5/1506045026219/Email-Marketing.png)</a>
+Click pe imagine pentru a mări
+{: style="text-align: center; color: #888"}
 
 ### Direct mail
 Probabil că cel mai folosit canal de media din marketingul direct este direct mail-ul - trimiterea de materiale publicitare adresate folosind serviciile poștale. În multe țări dezvoltate direct mail-ul reprezintă o cantitate foarte mare din volumul total de expedieri poștale, astfel încât există tarife speciale, mai mici, pentru aceste expedieri. Pentru a se putea încadra în această categorie de expedieri, companiile de publicitate își formatează și sortează materialele expediate în anumite feluri definite de companiile poștale, care reduc timpul de manipulare al acestora, scăzând astfel costurile.

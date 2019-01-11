@@ -4,9 +4,7 @@ title:  "Introducere în Marketing"
 categories: curs marketing
 overline: "I"
 showclock: false
-description: "Dezvoltă-ți cariera în ritmul propriu, cu ajutorul sesiunilor flexibile și
-                    personalizate de instruire, concepute pentru a-ți spori încrederea în forțele
-                    proprii și pentru a progresa."
+description: "În acest prim capitol vei învăța bazele marketingului și componentele acestuia pentru a întelege mai bine acest domeniu."
 ---
 
 

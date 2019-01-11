@@ -3,9 +3,7 @@ layout: post
 title:  "Optimizarea pentru motoarele de căutare"
 roman: IV
 showclock: true
-description: "Dezvoltă-ți cariera în ritmul propriu, cu ajutorul sesiunilor flexibile și
-                    personalizate de instruire, concepute pentru a-ți spori încrederea în forțele
-                    proprii și pentru a progresa."
+description: "În acest capitol vom prezenta, pe scurt, de ce este important ca orice website să fie optimizat pentru motoarele de căutare."
 ---
 
 ![seo1](https://www.crucial.com.au/blog/wp-content/uploads/2015/01/seo_hosting.jpg)
@@ -32,6 +30,8 @@ Termenul SEO poate să se refere și la "Optimizatori pentru Motoare de Căutare
 
 
 <a href="http://fuzeseo.co/wp-content/uploads/2017/10/SEO-Tools.jpg" rel="SEO Tools" target="_blank">![seo2](http://fuzeseo.co/wp-content/uploads/2017/10/SEO-Tools.jpg)</a>
+Click pe imagine pentru a mări
+{: style="text-align: center; color: #888"}
 
 Consultanții SEO propun adesea SEO ca un serviciu singular, făcând parte dintr-o campanie mai mare de marketing. Deoarece un proces de optimizare eficient poate cere schimbări în codul sursă al site-ului, este recomandat să fie inclus în dezvoltarea inițială și design-ul site-ului pentru a ajunge să fie "Search Engine Friendly". Termenul de "Search Engine Friendly" ( "Prietenos Motoarelor de Căutare") este folosit pentru a descrie design-ul, meniurile, sistemul de management al conținutului și al coșului de produse care poate fi optimizat ușor și eficient.
 

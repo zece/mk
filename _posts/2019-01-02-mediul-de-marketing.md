@@ -3,9 +3,7 @@ layout: post
 title:  "Mediul de Marketing"
 roman: III
 showclock: true
-description: "Dezvoltă-ți cariera în ritmul propriu, cu ajutorul sesiunilor flexibile și
-                    personalizate de instruire, concepute pentru a-ți spori încrederea în forțele
-                    proprii și pentru a progresa."
+description: "Orice companie are nevoie de marketing, astfel în acest capitol vom prezenta ce este mediul de marketing în cadrul oricărei firme de pe piață."
 ---
 
 In cadrul conceptului de marketing mediul in care actioneaza intrprinderile, organizatiile sau institutiile ocupa o pozitie centrala, marketingul presupunand desfasurarea activitatilor acestora in concordanta cu evolutia medilului economico-social.

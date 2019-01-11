@@ -3,9 +3,7 @@ layout: post
 title:  "Mixul de Marketing"
 overline: "II"
 showclock: false
-description: "Dezvoltă-ți cariera în ritmul propriu, cu ajutorul sesiunilor flexibile și
-                    personalizate de instruire, concepute pentru a-ți spori încrederea în forțele
-                    proprii și pentru a progresa."
+description: "Pentru a întelege și realiza un plan de marketing este nevoie să definim ce este mixul de marketing și componentele acestuia."
 ---
 
 Conceptul de mix de marketing a fost introdus ca termen în anii ‘50 și i-a fost sugerat autorului său, Neil Borden, de un articol de marketing în care se arăta că specialistul în marketing trebuies să fie un „artist”, un „mixer de ingrediente” care uneori folosește rețete pregătite de alții, alteori pregătește singur rețetele proprii, uneori adaptează rețetele în funcție de ingredientele disponibile, iar alteori experimentează sau inventează ingrediente noi. Mixul de marketing sugerează deci ideea antrenării resurselor de marketing în combinații diferite, pentru a obține un răspuns maxim din partea pieței țintă.
