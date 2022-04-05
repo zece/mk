@@ -5,6 +5,6 @@
 - name: Resurse
   link: ./resurse.html
 - name: Blog
-  link: .k/index.html
+  link: ./index.html
 - name: Contact
   link: ./contact.html
