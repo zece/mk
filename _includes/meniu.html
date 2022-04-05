@@ -2,7 +2,7 @@
   {% for item in site.data.nav %}
   {% assign pagina = page.url | append: ".html" %}
   <li>
-    <a href="{{ item.link }}" {% if pagina==item.link %}class="nav-links active" {%else%}class="nav-links" {% endif
+    <a href="mk/{{ item.link }}" {% if pagina==item.link %}class="nav-links active" {%else%}class="nav-links" {% endif
       %}>{{ item.name }}</a>
   </li>
   {% endfor %}
