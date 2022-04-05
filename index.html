@@ -3,86 +3,79 @@ title: Acasa
 permalink: index
 ---
 
-        <div class="header"  style="background-image: url('assets/img/hero.jpeg')">
-                        {% include nav.html %}
-                <div class="hero container">
-                        
-                        <div class="hero-text">
-                                <h1>Curs de Marketing Online gratuit</h1>
-                                <p>{{site.description}}</p>
-                                <a href="/#plan"><button class="button">Începe acum</button></a>
-                        </div>
-                </div>
+<div class="header" style="background-image: url('assets/img/hero.jpeg')">
+  {% include nav.html %}
+  <div class="hero container">
+    <div class="hero-text">
+      <h1>Curs de Marketing Online gratuit</h1>
+      <p>{{site.description}}</p>
+      <a href="#plan"><button class="button">Începe acum</button></a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="titlu" id="plan">
+    <h2>Plan de învățare</h2>
+  </div>
+  <div class="wrapper">
+    {% for post in site.posts reversed %}
+    <a href="mk/{{ post.url }}">
+      <div class="capitol">
+        {% if post.overline %}<span class="overline"
+          >Capitolul {{ post.overline }}</span
+        >{%endif%}
+
+        <h3>{% if post.roman %}{{ post.roman }}. {%endif%} {{ post.title }}</h3>
+
+        {% if post.showclock%}
+        <i class="clock"></i>
+        <div class="time">
+          {% assign words = post.content | number_of_words %} {% if words < 360
+          %} 1 min {% else %} {{ words | divided_by:135 }} min {% endif %}
         </div>
-        <div class="container">
-                <div class="titlu" id="plan">
-                        <h2>Plan de învățare</h2>
-                </div>
-                <div class="wrapper">
+        {%endif%}
+      </div>
+    </a>
+    {% endfor %}
+    <a href="#newsletter">
+      <div class="capitol in-curand">
+        <h3>VI. Publicitatea prin rețelele sociale</h3>
 
+        <div class="time">În curand</div>
+      </div>
+    </a>
+    <p>
+      Abonează-te la <a href="#newsletter">newsletter</a> și te anunțăm când
+      publicam conținut nou.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="column side"></div>
+  <div class="column middle">
+    <h1>Statistici marketing online</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </p>
 
+    <div class="stats">
+      <div class="col">
+        <h1>91%</h1>
+        <p>trafic de pe telefonul mobil</p>
+      </div>
+      <div class="col">
+        <h1>9,6 mil</h1>
+        <p>utilizatori de rețele sociale</p>
+      </div>
+      <div class="col">
+        <h1>11 sec</h1>
+        <p>timpul mediu de citire a emailului</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-                {% for post in site.posts reversed %}
-                <a href="{{ post.url }}"> 
-                                <div class="capitol">
-                                        {% if post.overline %}<span class="overline">Capitolul {{ post.overline }}</span>{%endif%}
-                                
-                                        <h3>{% if post.roman %}{{ post.roman }}. {%endif%}
-                                                {{ post.title }}</h3>  
-
-                                        {% if post.showclock%}
-                                                <i class="clock"></i>                                      
-                                                <div class="time">
-                                                {% assign words = post.content | number_of_words %}
-                                                {% if words < 360 %}
-                                                  1 min
-                                                {% else %}
-                                                  {{ words | divided_by:135 }} min
-                                                {% endif %}
-                                        </div>
-                                        {%endif%}
-                                </div>
-                        </a>
-                {% endfor %}
-                        <a href="#newsletter">
-                                        <div class="capitol in-curand">
-                                                <h3>VI. Publicitatea prin rețelele sociale</h3>
-                                                
-                                                <div class="time">În curand</div>
-                                        </div>
-                                </a>
-                                <p>Abonează-te la <a href="#newsletter">newsletter</a> și te anunțăm când publicam conținut nou.</p>
-                        
-                </div>
-        </div>
-        <div class="row">
-                <div class="column side"></div>
-                <div class="column middle">
-                        <h1>Statistici marketing online
-                        </h1>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-
-
-                        <div class="stats">
-                                <div class="col">
-                                        <h1>91%</h1>
-                                        <p>trafic de pe telefonul mobil</p>
-                                </div>
-                                <div class="col">
-                                        <h1>9,6 mil</h1>
-                                        <p>utilizatori de rețele sociale</p>
-                                </div>
-                                <div class="col">
-                                        <h1>11 sec</h1>
-                                        <p>timpul mediu de citire a emailului</p>
-                                </div>
-                        </div>
-                </div>
-        </div>
-
-        {% include testimoniale.html %}
-      
+{% include testimoniale.html %}
