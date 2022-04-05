@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-    <div class="header header-cap">
-            {% include nav.html %}
-        <div class="hero container">
-            <div class="hero-text">
-                <h1>{{page.title}}</h1>
-                <p>{{page.description}}</p>
-            </div>
-        </div>
+
+<div class="header header-cap">
+  {% include nav.html %}
+  <div class="hero container">
+    <div class="hero-text">
+      <h1>{{page.title}}</h1>
+      <p>{{page.description}}</p>
     </div>
-    <div class="section">
-        <div class="container-cap">
-                {{ content }}
-                {% include pagination.html %}
-        </div>
-    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container-cap">{{ content }} {% include pagination.html %}</div>
+</div>
