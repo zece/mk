@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Taviraj');
 
 $negru: #1d1d1d;
-$gradient: radial-gradient(circle farthest-corner at 10% 20%, rgba(48, 49, 142, 1) 0%, rgba(94, 93, 223, 1) 90%);
+$gradient: radial-gradient(
+  circle farthest-corner at 10% 20%,
+  rgba(48, 49, 142, 1) 0%,
+  rgba(94, 93, 223, 1) 90%
+);
 $overlay: linear-gradient(45deg, rgba(6, 93, 236, 1), rgba(6, 93, 236, 0.9));
 $alb: #fff;
 $albastru: #065dec;
@@ -14,14 +18,11 @@ $btnr: 4px;
 
 $transition: 0.3s;
 
-$basefont: 'Work Sans',
-sans-serif;
-$textfont: 'Taviraj',
-serif;
+$basefont: 'Work Sans', sans-serif;
+$textfont: 'Taviraj', serif;
 
 $marginecurs: 40px 0 90px 0;
 $bordertransparent: 1px solid rgba(255, 255, 255, 0.2);
-
 
 $shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
 $shadow16: 0px 16px 24px rgba(8, 35, 48, 0.16);
@@ -32,9 +33,8 @@ $regular: 400;
 
 $pagenav: 25px 40px;
 
-
-$time: url(/assets/img/time.svg);
-$side: url(/assets/img/mk.jpg);
+$time: url(/mk/assets/img/time.svg);
+$side: url(/mk/assets/img/mk.jpg);
 
 html,
 body,
@@ -127,9 +127,8 @@ img {
 /* Desktop screen */
 @media only screen and (min-width: 768px) {
   .hero-text,
-  .hero-cap{
+  .hero-cap {
     margin-left: 20px;
-
   }
 
   .navbar {
@@ -137,7 +136,6 @@ img {
     justify-content: space-between;
     padding-bottom: 0;
     height: 60px;
-
   }
 
   .main-nav {
@@ -150,7 +148,6 @@ img {
       margin: 0;
     }
   }
-
 
   .nav-links {
     margin-left: 40px;
@@ -167,26 +164,18 @@ img {
 
   .capitol .a {
     grid-column: 1/6;
-
-
   }
-
 }
-
 
 /* Tablet screen */
 @media only screen and (max-width: 1200px) {
-
-.hero-text,
-.hero-cap{
-  margin-left: 20px;
-  
-}
-
+  .hero-text,
+  .hero-cap {
+    margin-left: 20px;
+  }
 
   .navbar {
     padding-bottom: 10px;
-
   }
 
   .navbar-show {
@@ -195,36 +184,34 @@ img {
     justify-items: left;
   }
 
-.wrapper{display: block!important;
+  .wrapper {
+    display: block !important;
 
-a .capitol{
-  height: 100px!important;
-  border-radius: 0;
-  border-bottom: $bordertransparent;
-  .overline{
-    margin: 40px 0 0 40px;
+    a .capitol {
+      height: 100px !important;
+      border-radius: 0;
+      border-bottom: $bordertransparent;
+      .overline {
+        margin: 40px 0 0 40px;
+      }
+    }
+
+    p {
+      text-align: center;
+    }
   }
-
-}
-
-p{
-  text-align: center;
-}
-}
-   .capitol{
-   
+  .capitol {
     grid-auto-rows: minmax(50px, auto);
-   
-  }
-  
-  .row {
-    flex-direction: column!important;
   }
 
-  #contact{
+  .row {
+    flex-direction: column !important;
+  }
+
+  #contact {
     flex-direction: column;
   }
-  iframe{
+  iframe {
     width: 100%;
   }
   .navbar-toggle {
@@ -238,7 +225,6 @@ p{
     width: 24px;
     height: 24px;
   }
-
 
   .column.middle {
     padding: 5%;
@@ -266,25 +252,18 @@ p{
       flex-direction: column;
       align-items: center;
 
-
       .button {
         margin: 10px;
         width: 90%;
       }
     }
 
-    form input[type=text] {
+    form input[type='text'] {
       margin: 0 !important;
       width: 90% !important;
     }
-
-
-
   }
 }
-
-
-
 
 .titlu {
   margin: 100px 0 0 0;
@@ -294,21 +273,17 @@ p{
   }
 }
 
-
 /* Mobile screen */
-@media only screen and (max-width: 480px){
-  .header .hero-text{
-
-    h1{
-      font-size: 2rem!important;
+@media only screen and (max-width: 480px) {
+  .header .hero-text {
+    h1 {
+      font-size: 2rem !important;
     }
-    p{
+    p {
       font-size: 1rem;
     }
   }
 }
-
-
 
 @function map-deep-get($map, $keys...) {
   @each $key in $keys {
@@ -318,25 +293,29 @@ p{
   @return $map;
 }
 
-
-
-$capitol-grid:(1: (column: #{"1/4"},
-height: 160px,
-color: $albastru,
-row: 1,
-
-),
-2: (column: #{"4/6"},
-row: 1,
-),
-3: (column: #{"1/6"},
-row:2,
-),
-4:(column: #{"1/6"},
-row: 3,
-),
-5:(row: 4,
-column: #{"1/6"}),
+$capitol-grid: (
+  1: (
+    column: #{'1/4'},
+    height: 160px,
+    color: $albastru,
+    row: 1,
+  ),
+  2: (
+    column: #{'4/6'},
+    row: 1,
+  ),
+  3: (
+    column: #{'1/6'},
+    row: 2,
+  ),
+  4: (
+    column: #{'1/6'},
+    row: 3,
+  ),
+  5: (
+    row: 4,
+    column: #{'1/6'},
+  ),
 );
 
 .in-curand {
@@ -353,25 +332,19 @@ column: #{"1/6"}),
   &:hover {
     background: #eee;
   }
-
 }
 
-
 @mixin set-capitol($capitol-item) {
-
-  @each $i,
-  $attribute in $capitol-item {
+  @each $i, $attribute in $capitol-item {
     &:nth-child(#{$i}) .capitol {
       background-color: map-deep-get($capitol-item, $i, color);
       grid-column: map-deep-get($capitol-item, $i, column);
       grid-row: map-deep-get($capitol-item, $i, row);
       height: map-deep-get($capitol-item, $i, height);
       position: relative;
-
     }
   }
 }
-
 
 .wrapper a {
   @include set-capitol($capitol-grid);
@@ -379,7 +352,6 @@ column: #{"1/6"}),
   &:nth-child(1) .capitol:hover {
     background: $hover;
   }
-
 
   .in-curand {
     grid-column: 1 / 6;
@@ -414,8 +386,6 @@ column: #{"1/6"}),
     background: #111;
   }
 
-
-
   h3,
   .time {
     font-weight: $regular;
@@ -424,7 +394,6 @@ column: #{"1/6"}),
   }
 
   .clock {
-
     display: block;
     background: $time;
     background-size: 16px 16px;
@@ -435,7 +404,7 @@ column: #{"1/6"}),
 
   .clock,
   .time {
-    opacity: .5;
+    opacity: 0.5;
   }
   .overline {
     text-transform: uppercase;
@@ -443,19 +412,15 @@ column: #{"1/6"}),
     position: absolute;
     top: 0;
     left: 0;
-    margin  : 70px 0 0 40px;
-    color: rgba(255, 255, 255, .5);
+    margin: 70px 0 0 40px;
+    color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.05rem;
   }
-
 }
 
 .header-cap {
-
   max-height: 400px;
-
 }
-
 
 .section {
   padding: 6.25rem 0 5rem 0;
@@ -466,11 +431,13 @@ column: #{"1/6"}),
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  a, a:visited{
+  a,
+  a:visited {
     color: $albastru;
   }
 
-  img{  display: block;
+  img {
+    display: block;
     margin: 0 auto;
     width: 50%;
   }
@@ -478,10 +445,7 @@ column: #{"1/6"}),
     font-family: $textfont;
     line-height: 2rem;
     text-align: justify;
-  
   }
-
-
 }
 
 .c-page {
@@ -495,7 +459,6 @@ column: #{"1/6"}),
     color: #fff;
     text-decoration: inherit;
   }
-
 
   h5 {
     margin: 0;
@@ -522,12 +485,8 @@ column: #{"1/6"}),
     padding: $pagenav;
     float: right;
     border-radius: $btnr;
-
   }
-
-
 }
-
 
 .header {
   background: $negru;
@@ -559,11 +518,9 @@ column: #{"1/6"}),
       margin-top: -60px;
     }
   }
-
 }
 
 .button {
-
   background: $albastru;
   border: none;
   color: white;
@@ -578,12 +535,11 @@ column: #{"1/6"}),
   &:hover {
     background: $hover;
   }
-
 }
 
 .row {
   flex-direction: row;
-  
+
   display: flex;
 }
 
@@ -592,9 +548,7 @@ column: #{"1/6"}),
   flex-direction: column;
   justify-content: center;
   padding: 160px 140px;
-
 }
-
 
 .column.side {
   background: $overlay, $side;
@@ -603,10 +557,8 @@ column: #{"1/6"}),
   background-position: center;
   flex: 1 4rem;
 
-
   img {
     width: 100%;
-
   }
 }
 
@@ -634,8 +586,6 @@ column: #{"1/6"}),
   align-content: center;
   flex-wrap: wrap;
   margin: 50px 0 120px 0;
-
-
 }
 
 .citat {
@@ -658,7 +608,7 @@ column: #{"1/6"}),
     color: #aaa;
     font-weight: $regular;
 
-    strong{
+    strong {
       color: $albastru;
       font-weight: $medium;
     }
@@ -695,18 +645,14 @@ column: #{"1/6"}),
   background: $negru;
   border-top: $bordertransparent;
   color: $alb;
-
 }
 
 #newsletter {
-
   form {
-
     display: flex;
     justify-content: center;
 
-
-    input[type=text] {
+    input[type='text'] {
       width: 30%;
       box-sizing: border-box;
       border: $bordertransparent;
@@ -716,21 +662,17 @@ column: #{"1/6"}),
 
       padding: 12px 20px;
       margin-right: 1rem;
-
     }
 
     input {
       font-family: $basefont;
       color: $menu;
-
     }
-
 
     ::placeholder {
       color: $menu;
     }
   }
-
 }
 
 .footer {
@@ -741,7 +683,6 @@ column: #{"1/6"}),
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-
 }
 
 .copyright {
@@ -763,10 +704,8 @@ column: #{"1/6"}),
   margin-right: 30px;
   margin-top: 1rem;
 
-
-
   img {
-    opacity: .5;
+    opacity: 0.5;
     width: 24px;
     height: 24px;
 
@@ -775,50 +714,49 @@ column: #{"1/6"}),
 
       transition: $transition;
     }
-
   }
 }
 
-#contact{
+#contact {
   padding: 3rem 0;
 
   display: flex;
-  
-  aside{
+
+  aside {
     flex: 1;
   }
 
-form{
-  flex: 1;
+  form {
+    flex: 1;
+  }
+
+  input[type='text'],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: $btnr;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: $btnr;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-
-}
-}
-
-table{
+table {
   border-collapse: collapse;
   border-spacing: 0;
-  border:1px solid $menu;
+  border: 1px solid $menu;
   width: 100%;
-
 }
 
-th{
-  border:1px solid $menu;
+th {
+  border: 1px solid $menu;
   padding: 10px;
 }
 
-td{
-  border:1px solid $menu;
+td {
+  border: 1px solid $menu;
   padding: 10px;
 }
