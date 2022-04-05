@@ -1,10 +1,10 @@
 - name: Acasă
-  link: /index.html
+  link: mk/index.html
 - name: Despre
-  link: /despre.html
+  link: mk/despre.html
 - name: Resurse
-  link: /resurse.html
+  link: mk/resurse.html
 - name: Blog
-  link: /blog
+  link: mk/index.html
 - name: Contact
-  link: /contact.html
+  link: mk/contact.html
