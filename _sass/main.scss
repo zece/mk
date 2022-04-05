@@ -33,8 +33,8 @@ $regular: 400;
 
 $pagenav: 25px 40px;
 
-$time: url(assets/img/time.svg);
-$side: url(./assets/img/mk.jpg);
+$time: url(mk/assets/img/time.svg);
+$side: url(mk/assets/img/mk.jpg);
 
 html,
 body,
@@ -220,7 +220,7 @@ img {
     right: 20px;
     cursor: pointer;
     color: $menu;
-    background: url(/mk/assets/img/menu.svg);
+    background: url(mk/assets/img/menu.svg);
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
