@@ -19,7 +19,7 @@ permalink: index
   </div>
   <div class="wrapper">
     {% for post in site.posts reversed %}
-    <a href="mk/{{ post.url }}">
+    <a href="{{ post.url }}">
       <div class="capitol">
         {% if post.overline %}<span class="overline"
           >Capitolul {{ post.overline }}</span
